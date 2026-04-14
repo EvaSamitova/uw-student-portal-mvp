@@ -35,19 +35,19 @@ I designed a multi-page Power BI dashboard that consolidates all clinical data i
 
 ### 🔹 Clinical Overview (KPI + Progress Tracking)
 
-![Clinical Overview](images/01_clinical_overview.png)
+![Clinical Overview](01_clinical_overview.png)
 
 ### 🔹 Site Performance Analysis
 
-![Site Performance](images/02_site_performance.png)
+![Site Performance](02_site_performance.png)
 
 ### 🔹 Learner Performance Insights
 
-![Learner Performance](images/03_learner_performance.png)
+![Learner Performance](03_learner_performance.png)
 
 ### 🔹 Clinical Rotations & Assignments
 
-![Clinical Rotations](images/04_clinical_rotations.png)
+![Clinical Rotations](04_clinical_rotations.png)
 
 ---
 
