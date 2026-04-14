@@ -1,31 +1,94 @@
-# UW Student Portal MVP
+# 🏥 Clinical Student Portal Dashboard (Power BI)
 
-This repository contains research, planning materials, and prototype concepts for a Student Portal MVP designed for medical education programs.
+## 📌 Project Overview
 
-## Project Goals
+This project is an interactive Power BI dashboard designed to track clinical progress, specimen completion, and student performance in a healthcare education setting.
 
-- Explore architecture options for a competency tracking portal
-- Replace fragmented Excel tracking with structured data workflows
-- Provide real-time visibility into student progress and case volume
-- Support faculty oversight and early identification of training gaps
+The goal was to move away from manual Excel tracking and create a centralized, easy-to-use tool that gives both students and program administrators clear visibility into progress and requirements.
 
-## MVP Focus
+---
 
-Primary MVP approach:
+## 🎯 Business Problem
 
-SharePoint Lists + Microsoft Forms + Power BI
+Clinical programs often track student progress across multiple rotations, sites, and specimen requirements using spreadsheets. This makes it difficult to:
 
-Alternative architectures explored:
+* Monitor progress in real time
+* Identify gaps in required clinical experience
+* Compare performance across sites and learners
+* Generate clear, consistent reports
 
-- Power Apps + Dataverse
-- Firebase / custom web application
-- Lovable rapid prototype
-- MedHub (existing residency management system)
+---
 
-## Repository Structure
+## 💡 Solution
 
-research/ – architecture comparison and planning  
-diagrams/ – system design visuals  
-prototypes/ – prototype experiments  
-screenshots/ – UI references  
-docs/ – proposal documents
+I designed a multi-page Power BI dashboard that consolidates all clinical data into a single platform. It allows users to:
+
+* Track completed vs required clinical credits
+* Monitor specimen completion status
+* Analyze site performance across rotations
+* View learner-level progress and distribution
+* Follow trends over time
+
+---
+
+## 🖼 Dashboard Preview
+
+### 🔹 Clinical Overview (KPI + Progress Tracking)
+
+![Clinical Overview](images/01_clinical_overview.png)
+
+### 🔹 Site Performance Analysis
+
+![Site Performance](images/02_site_performance.png)
+
+### 🔹 Learner Performance Insights
+
+![Learner Performance](images/03_learner_performance.png)
+
+### 🔹 Clinical Rotations & Assignments
+
+![Clinical Rotations](images/04_clinical_rotations.png)
+
+---
+
+## 🧠 Key Features
+
+* KPI tracking for clinical credits and specimen requirements
+* Progress indicators (Complete / Incomplete logic)
+* Site-level performance comparison
+* Learner-level analytics and distribution
+* Weekly progress trend visualization
+* Interactive filtering using slicers
+
+---
+
+## 🛠 Tools & Technologies
+
+* Power BI Desktop
+* Excel
+* DAX (Data Analysis Expressions)
+* Power Query
+
+---
+
+## 🧩 Data & Modeling
+
+* Built structured data model using fact and dimension tables
+* Cleaned and transformed raw Excel data in Power Query
+* Created calculated measures for:
+
+  * Progress %
+  * Completion status
+  * KPI indicators
+
+---
+
+## 🚀 Outcome
+
+This dashboard improves visibility into clinical training progress and helps quickly identify missing requirements or underperforming areas. It transforms static data into actionable insights that can support better decision-making.
+
+---
+
+## ⚠️ Note
+
+Data used in this project has been anonymized. This dashboard is intended to simulate a real-world clinical student tracking system.
