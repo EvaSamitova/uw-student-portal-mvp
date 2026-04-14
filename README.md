@@ -92,3 +92,11 @@ This dashboard improves visibility into clinical training progress and helps qui
 ## ⚠️ Note
 
 Data used in this project has been anonymized. This dashboard is intended to simulate a real-world clinical student tracking system.
+
+## 🧩 Data Model / Schema
+
+This dashboard is built on a structured data model designed to support flexible filtering and accurate reporting across multiple dimensions such as learners, sites, rotations, and specimens.
+
+![Data Model](05_data_model_schema.png)
+
+The model supports relationships between datasets and enables efficient calculations for KPIs, progress tracking, and performance analysis.
