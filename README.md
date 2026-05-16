@@ -2,103 +2,97 @@
 
 ## 📌 Project Overview
 
-This project is an interactive Power BI dashboard designed to track clinical progress, specimen completion, and student performance in a healthcare education setting.
+This project is an interactive Power BI dashboard designed to track clinical progress, specimen completion, rotations, and student performance within a healthcare education environment.
 
-The goal was to move away from manual Excel tracking and create a centralized, easy-to-use tool that gives both students and program administrators clear visibility into progress and requirements.
+The goal was to replace manual Excel-based tracking with a centralized reporting solution that provides students, faculty, and program leadership with clear visibility into academic and clinical progress.
 
 ---
 
 ## 🎯 Business Problem
 
-Clinical programs often track student progress across multiple rotations, sites, and specimen requirements using spreadsheets. This makes it difficult to:
+Clinical programs often manage student progress across multiple rotations, sites, and specimen requirements using disconnected spreadsheets and manual reporting processes. This creates challenges in:
 
-* Monitor progress in real time
-* Identify gaps in required clinical experience
-* Compare performance across sites and learners
-* Generate clear, consistent reports
+* Monitoring student progress in real time
+* Identifying missing clinical requirements
+* Comparing learner and site performance
+* Maintaining consistent operational reporting
+* Reducing manual tracking and reporting effort
 
 ---
 
 ## 💡 Solution
 
-I designed a multi-page Power BI dashboard that consolidates all clinical data into a single platform. It allows users to:
+Designed a multi-page Power BI dashboard consolidating clinical and academic data into a centralized reporting platform. The solution enables users to:
 
 * Track completed vs required clinical credits
 * Monitor specimen completion status
-* Analyze site performance across rotations
-* View learner-level progress and distribution
-* Follow trends over time
+* Analyze site and rotation performance
+* View learner-level progress and KPI metrics
+* Identify trends and reporting gaps over time
 
 ---
 
 ## 🖼 Dashboard Preview
 
-![Dashboard Overview](dashboard.png)
+![Dashboard Overview](screenshots/dashboard.png)
 
-### 🔹 Clinical Overview (KPI + Progress Tracking)
+### 🔹 Clinical Overview
 
-![Clinical Overview](01_clinical_overview.png)
+![Clinical Overview](screenshots/01_clinical_overview.png)
 
 ### 🔹 Site Performance Analysis
 
-![Site Performance](02_site_performance.png)
+![Site Performance](screenshots/02_site_performance.png)
 
 ### 🔹 Learner Performance Insights
 
-![Learner Performance](03_learner_performance.png)
+![Learner Performance](screenshots/03_learner_performance.png)
 
 ### 🔹 Clinical Rotations & Assignments
 
-![Clinical Rotations](04_clinical_rotations.png)
+![Clinical Rotations](screenshots/04_clinical_rotations.png)
 
 ---
 
 ## 🧠 Key Features
 
 * KPI tracking for clinical credits and specimen requirements
-* Progress indicators (Complete / Incomplete logic)
+* Progress indicators and completion tracking
 * Site-level performance comparison
 * Learner-level analytics and distribution
-* Weekly progress trend visualization
-* Interactive filtering using slicers
+* Interactive filtering using slicers and drilldowns
+* Trend analysis across rotations and reporting periods
 
 ---
 
 ## 🛠 Tools & Technologies
 
 * Power BI Desktop
-* Excel
-* DAX (Data Analysis Expressions)
 * Power Query
+* DAX (Data Analysis Expressions)
+* Excel
+* Data Visualization
 
 ---
 
 ## 🧩 Data & Modeling
 
-* Built structured data model using fact and dimension tables
-* Cleaned and transformed raw Excel data in Power Query
-* Created calculated measures for:
+Built a structured semantic data model using fact and dimension tables to support scalable filtering, KPI calculations, and cross-system reporting.
 
-  * Progress %
-  * Completion status
-  * KPI indicators
+### 🔹 Data Model / Schema
+
+![Data Model](screenshots/05_data_model_schema.png)
+
+The model supports relationships across learners, rotations, sites, and specimen tracking datasets while enabling efficient calculations for progress monitoring and operational reporting.
 
 ---
 
 ## 🚀 Outcome
 
-This dashboard improves visibility into clinical training progress and helps quickly identify missing requirements or underperforming areas. It transforms static data into actionable insights that can support better decision-making.
+The dashboard improves visibility into clinical training progress while reducing manual reporting effort and improving operational tracking consistency. The project demonstrates how healthcare education data can be transformed into interactive reporting solutions that support faster and more informed decision-making.
 
 ---
 
 ## ⚠️ Note
 
-Data used in this project has been anonymized. This dashboard is intended to simulate a real-world clinical student tracking system.
-
-## 🧩 Data Model / Schema
-
-This dashboard is built on a structured data model designed to support flexible filtering and accurate reporting across multiple dimensions such as learners, sites, rotations, and specimens.
-
-![Data Model](05_data_model_schema.png)
-
-The model supports relationships between datasets and enables efficient calculations for KPIs, progress tracking, and performance analysis.
+Data used in this project has been anonymized. This dashboard is intended to simulate a real-world clinical student tracking and reporting environment.
