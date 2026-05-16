@@ -33,6 +33,8 @@ I designed a multi-page Power BI dashboard that consolidates all clinical data i
 
 ## 🖼 Dashboard Preview
 
+![Dashboard Overview](dashboard.png)
+
 ### 🔹 Clinical Overview (KPI + Progress Tracking)
 
 ![Clinical Overview](01_clinical_overview.png)
